@@ -1,0 +1,29 @@
+[package]
+name = "yamcts"
+version = "0.1.0"
+edition = "2021"
+authors = ["John Process <firestaff@gmail.com>"]
+description = "An implementation of Monte Carlo Tree Search."
+repository = "https://github.com/nowl/yamcts"
+readme = "README.md"
+keywords = [
+    "mcts",
+    "monte",
+    "carlo",
+    "tree",
+    "search",
+    "simulation",
+    "random",
+    "game",
+]
+categories = ["algorithms"]
+license = "MIT"
+
+[features]
+default = ["chrono", "multi-threaded", "nanorand"]
+multi-threaded = ["num_cpus"]
+
+[dependencies]
+nanorand = { version = "0.7.0", optional = true }
+chrono = { version = "0.4.38", optional = true }
+num_cpus = { version = "1.16.0", optional = true }

@@ -6,16 +6,7 @@ authors = ["John Process <firestaff@gmail.com>"]
 description = "An implementation of Monte Carlo Tree Search."
 repository = "https://github.com/nowl/yamcts"
 readme = "README.md"
-keywords = [
-    "mcts",
-    "monte",
-    "carlo",
-    "tree",
-    "search",
-    "simulation",
-    "random",
-    "game",
-]
+keywords = ["mcts", "simulation", "random", "game"]
 categories = ["algorithms"]
 license = "MIT"
 
